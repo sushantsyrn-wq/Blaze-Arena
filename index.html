@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlazeArena FF</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.75);
+min-height:100vh;
+}
+
+header{
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,0.5);
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#ff6a00;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:55px;
+text-shadow:0 0 20px orange;
+}
+
+.hero p{
+font-size:20px;
+margin:20px 0;
+}
+
+.btn{
+padding:15px 35px;
+background:#ff6a00;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(8px);
+padding:25px;
+width:300px;
+border-radius:20px;
+text-align:center;
+}
+
+.card h3{
+color:#ff6a00;
+margin-bottom:10px;
+}
+
+.register{
+text-align:center;
+padding:50px 20px;
+}
+
+input{
+width:300px;
+padding:12px;
+margin:10px;
+border:none;
+border-radius:10px;
+}
+
+button{
+padding:12px 30px;
+background:#ff6a00;
+border:none;
+border-radius:10px;
+color:white;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+<div class="logo">🔥 BlazeArena</div>
+</header>
+
+<section class="hero">
+<h1>FREE FIRE TOURNAMENT</h1>
+<p>Join Battles • Win Diamonds • Become a Champion</p>
+<a href="#register" class="btn">JOIN NOW</a>
+</section>
+
+<section class="cards">
+<div class="card">
+<h3>🏆 Daily Tournament</h3>
+<p>Prize Pool ₹5000</p>
+</div>
+
+<div class="card">
+<h3>⚔ Squad Clash</h3>
+<p>Custom Room Battles</p>
+</div>
+
+<div class="card">
+<h3>💎 Diamond Rewards</h3>
+<p>Exciting Rewards</p>
+</div>
+</section>
+
+<section class="register" id="register">
+<h2>Register Now</h2>
+<br>
+<input type="text" placeholder="Player Name"><br>
+<input type="text" placeholder="Free Fire UID"><br>
+<input type="tel" placeholder="Mobile Number"><br>
+<button>Register</button>
+</section>
+
+<footer>
+© 2026 BlazeArena Esports
+</footer>
+
+</div>
+
+</body>
+</html>
